@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Downloaded Hugging Face Models & Cache
+models/
+.cache/
+
+# PyTorch / ML Binaries
+*.dll
+*.so
+*.dylib
+*.bin
+*.pt
+*.safetensors
+*.h5
+*.onnx
+
+# Vector Databases
+chroma_store/
+agent_chroma_store/
+*.sqlite3
+
+# Environment Variables & Cache
+.env
+__pycache__/
+*.log
